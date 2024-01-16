@@ -156,7 +156,13 @@ nav ul li a {
 .popular-content h2, p, ul>li{
     padding-top: 20px;
 }
-
+.read-more{
+    margin-top: 45px;
+    padding: 15px 30px 15px 30px;
+    text-align: left;
+    border: #FFF;
+    color: #FFF;
+}
 /* Responsive section */
 @media screen and (max-width: 600px) {
     nav ul {
@@ -174,7 +180,7 @@ nav ul li a {
         align-items: center;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 10px;
-        */ padding: 20px 80px;
+        padding: 20px 80px;
     }
 
     .input {
@@ -183,7 +189,7 @@ nav ul li a {
         align-items: center;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 10px;
-        */ padding: 20px 80px;
+        padding: 20px 80px;
     }
 
     .container {
